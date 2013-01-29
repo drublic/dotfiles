@@ -28,6 +28,7 @@ run_brew() {
 			'phantomjs'
 			'tree'
 			'wget'
+			'hub'
 		)
 
 		for index in ${!desired_formulae[*]}

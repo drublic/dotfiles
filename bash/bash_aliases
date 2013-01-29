@@ -47,5 +47,8 @@ alias showdotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true
 alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # MySQL
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias mysql="/usr/local/mysql/bin/mysql"
+alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
+
+# Use hub for git - http://defunkt.io/hub/
+alias git="hub"
