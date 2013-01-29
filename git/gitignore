@@ -1,0 +1,31 @@
+# OS files
+._*
+.DS_Store
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Always-ignore extensions
+*~
+*.diff
+*.err
+*.log
+*.orig
+*.pyc
+*.rej
+*.sass-cache
+*.sw?
+*.vi
+
+# Folder with notes and material
+.misc
+
+# Don't commit code of node modules
+node_modules
+
+# Sublime Text
+*.sass-cache
+*.sublime-*
+sftp-config.json
