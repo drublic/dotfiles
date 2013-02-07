@@ -6,7 +6,7 @@
 set completion-ignore-case on
 
 # Make TAB cycle through possible completions
-"\t": menu-complete
+# "\t": menu-complete
 
 # Use the string that has already been typed as the prefix for searching
 # through commands (i.e. more intelligent Up/Down behavior)
