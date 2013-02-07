@@ -137,6 +137,8 @@ else
 	exit 1
 fi
 
+
+## @TODO Check, if on OS X
 # Ask before potentially overwriting OS X defaults
 seek_confirmation "Warning: This step may modify your OS X system defaults."
 
