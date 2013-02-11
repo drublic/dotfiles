@@ -175,7 +175,8 @@ configuration specified in `~/.bash_profile.local` will not be committed to
 your dotfiles repository.
 
 
-## Thanks to
+## Thanks
 
 * [@necolas' dotfiles](https://github.com/necolas/dotfiles)
 * [@mathiasbynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
+* [@paulirish's dotfiles](https://github.com/paulirish/dotfiles)
