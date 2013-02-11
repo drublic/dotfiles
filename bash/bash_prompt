@@ -10,10 +10,13 @@
 # Color ref: http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
 # More tips: http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
 
+# Set default username
+default_username='hans'
 
 # Check that terminfo exists before changing TERM var to xterm-256color
-# Prevents prompt flashing in Mac OS X 10.6 Terminal.app
-if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
+	export TERM='gnome-256color'
+elif infocmp xterm-256color >/dev/null 2>&1; then
 	export TERM='xterm-256color'
 fi
 
