@@ -17,6 +17,9 @@ declare -a dirs_to_append=(
 	"$(brew --prefix)/share/npm/bin" # Add npm-installed package bin
 	"/usr/local/bin"
 	"/usr/local/share/npm/bin"
+	"/usr/local/Cellar"
+	"/usr/local/git/bin"
+	"/usr/share/java/ant-1.8.1/bin/ant"
 )
 
 # Prepend directories to PATH
