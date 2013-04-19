@@ -29,6 +29,7 @@ run_brew() {
 			'tree'
 			'wget'
 			'hub'
+			'trash'
 		)
 
 		for index in ${!desired_formulae[*]}
