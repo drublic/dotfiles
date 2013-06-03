@@ -18,6 +18,7 @@ Thumbs.db
 *.sass-cache
 *.sw?
 *.vi
+*.tern-port
 
 # Folder with notes and material
 .misc
