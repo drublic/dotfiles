@@ -128,8 +128,8 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Screen: save screenshots to the desktop
 defaults write com.apple.screencapture location -string "$HOME/Desktop"
 
-# Screen: disable shadow in screenshots
-# defaults write com.apple.screencapture disable-shadow -bool false
+# Screen: enable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
 
 # Screen: enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
