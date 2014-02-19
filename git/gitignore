@@ -23,8 +23,9 @@ Thumbs.db
 # Folder with notes and material
 .misc
 
-# Don't commit code of node modules
+# Don't commit code of node modules or bower
 node_modules
+bower_components
 
 # Sublime Text
 *.sass-cache
