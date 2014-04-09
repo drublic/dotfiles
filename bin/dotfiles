@@ -122,6 +122,7 @@ mirrorfiles() {
 	link "bash/inputrc"       ".inputrc"
 	link "git/gitattributes"  ".gitattributes"
 	link "git/gitignore"      ".gitignore"
+	link "git/githelpers"     ".githelpers"
 
 	e_success "Dotfiles update complete!"
 }
