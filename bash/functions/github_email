@@ -3,7 +3,7 @@
 
 # Magically retrieves a GitHub users email even though it's not publicly shown
 github_email() {
-	[ "$1" = "" ] && echo "usage: $0 <GitHub username> [<repo>]" && exit 1
+	[ "$1" = "" ] && echo "usage: $0 <GitHub username> [<repo>]"
 
 	[ "$2" = "" ] && repo=`curl "https://api.github.com/users/$1/repos?type=owner&sort=updated" -s | sed -En 's|"name": "(.+)",|\1|p' | tr -d ' ' | head -n 1` || repo=$2
 
