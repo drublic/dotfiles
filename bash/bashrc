@@ -3,6 +3,3 @@
 # bashrc
 
 [ -n "$PS1" ] && source ~/.bash_profile
-
-# Git completion
-source ~/.git-completion.sh
