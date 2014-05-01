@@ -72,7 +72,9 @@ alias git="hub"
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
 
 # Shorthand Programs
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
+alias spotify='open -a "Spotify"'
+alias subl='open -a "Sublime Text"'
+alias atom='open -a "Atom"'
 
 # Thanks Paul! – http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
