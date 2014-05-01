@@ -96,16 +96,14 @@ set encoding=utf-8 nobomb
 
 " No line wrapping
 set nowrap
-" Use 2 spaces for indentation
-set shiftwidth=2
-" Use 2 spaces for soft tab
-set softtabstop=2
-" Use 2 spaces for tab
-set tabstop=2
+" Use 4 spaces for indentation
+set shiftwidth=4
+" Use 4 spaces for soft tab
+set softtabstop=4
+" Use 4 spaces for tab
+set tabstop=4
 " Expand tab to spaces
 set expandtab
-" Enable line numbers
-set number
 " Highlight current line
 set cursorline
 " Start scrolling three lines before the horizontal window border
