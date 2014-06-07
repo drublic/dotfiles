@@ -45,6 +45,10 @@
 	# Display the number of commits per author in numerical order
 	who = shortlog -sn --
 
+	# Some YOLO action
+	push --friday = push --force
+	yolo = push --force
+
 [color]
 	# color opts: normal, black, red, green, yellow, blue, magenta, cyan, or white
 	ui = auto
