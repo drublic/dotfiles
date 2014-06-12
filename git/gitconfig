@@ -46,7 +46,6 @@
 	who = shortlog -sn --
 
 	# Some YOLO action
-	push --friday = push --force
 	yolo = push --force
 
 [color]
