@@ -82,3 +82,7 @@ alias pumpitup="osascript -e 'set volume 10'"
 
 # Prevent deleting
 alias rm="rm -i"
+
+# Clean all branches except master
+# Thanks to @melros
+alias repo-branch-cleanup="git checkout master && git remote update --prune | git branch --merged | grep -v master | xargs git branch -d; git branch -r --merged | grep -v master | sed -e 's/origin\//:/' | xargs git push origin";
