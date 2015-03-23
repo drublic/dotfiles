@@ -25,9 +25,11 @@ Thumbs.db
 
 # Don't commit code of node modules or bower
 node_modules
-bower_components
 
 # Sublime Text
 *.sass-cache
 *.sublime-*
 sftp-config.json
+
+# Global env settings
+.env
