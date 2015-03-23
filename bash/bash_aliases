@@ -86,3 +86,6 @@ alias rm="rm -i"
 # Clean all branches except master
 # Thanks to @melros
 alias repo-branch-cleanup="git checkout master && git remote update --prune | git branch --merged | egrep -v 'master|release|develop' | xargs git branch -d; git branch -r --merged |  egrep -v 'master|release|develop' | sed -e 's/origin\//:/' | xargs git push origin";
+
+# Localtunnel
+alias localtunnel="/usr/local/lib/node_modules/localtunnel/bin/client --port 8000"
