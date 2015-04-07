@@ -5,6 +5,7 @@
 	ci = commit
 	br = branch
 	co = checkout
+	cob = checkout -b
 	df = diff
 	lg = log -p
 
