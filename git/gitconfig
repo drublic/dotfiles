@@ -49,6 +49,9 @@
 	# Some YOLO action
 	yolo = push --force
 
+	# Reset last commit
+	undo = reset HEAD~1 --mixed
+
 [color]
 	# color opts: normal, black, red, green, yellow, blue, magenta, cyan, or white
 	ui = auto
