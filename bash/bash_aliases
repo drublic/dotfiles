@@ -61,6 +61,7 @@ alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool fals
 # MySQL
 alias mysql="/usr/local/mysql/bin/mysql"
 alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
+alias mysqlserver="/usr/local/mysql/support-files/mysql.server"
 
 # Create a tar file
 alias maketar="tar -czf"
@@ -68,13 +69,11 @@ alias untar="tar -xzf"
 
 # Use hub for git - http://defunkt.io/hub/
 alias git="hub"
-# git root
-alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
 
 # Shorthand Programs
 alias spotify='open -a "Spotify"'
 alias subl='open -a "Sublime Text"'
-alias atom='open -a "Atom"'
+alias vsc='open -a "Visual Studio Code"'
 
 # Thanks Paul! – http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
@@ -86,6 +85,3 @@ alias rm="rm -i"
 # Clean all branches except master
 # Thanks to @melros
 alias repo-branch-cleanup="git checkout master && git remote update --prune | git branch --merged | egrep -v 'master|release|develop' | xargs git branch -d; git branch -r --merged |  egrep -v 'master|release|develop' | sed -e 's/origin\//:/' | xargs git push origin";
-
-# Localtunnel
-alias localtunnel="/usr/local/lib/node_modules/localtunnel/bin/client --port 8000"
