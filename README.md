@@ -64,7 +64,6 @@ Homebrew formulae:
 * [ack](http://betterthangrep.com/)
 * [bash-completion](http://bash-completion.alioth.debian.org/)
 * jpeg
-* [macvim](http://code.google.com/p/macvim/)
 * [node](http://nodejs.org/)
 * [optipng](http://optipng.sourceforge.net/)
 * [phantomjs](http://phantomjs.org/)

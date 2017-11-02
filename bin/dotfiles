@@ -122,8 +122,6 @@ mirrorfiles() {
 	link "git/gitattributes"  ".gitattributes"
 	link "git/gitignore"      ".gitignore"
 	link "git/githelpers"     ".githelpers"
-	link "vim"			          ".vim"
-	link "vim/vimrc"          ".vimrc"
 
 	e_success "Dotfiles update complete!"
 }
