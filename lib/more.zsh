@@ -1,0 +1,1 @@
+export EDITOR=/path/to/new/editor
